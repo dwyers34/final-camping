@@ -1,0 +1,76 @@
+@font-face{
+  font-family: "cinzel-black";
+  src:url("../fonts/cinzel-black-webfont.woff2") format("woff2"),
+    url("../fonts/cinzel-black-webfont.woff") format("woff");
+    font-weight:normal;
+    font-style:normal;}
+  @font-face{
+    font-family: "cinzel-regular";
+    src:url("../fonts/cinzel-regular-webfont.woff") format("woff"),
+    url("../fonts/cinzel-regular-webfont.woff2") format("woff2");
+    font-weight:normal;
+    font-style:normal;
+  }
+  @font-face{
+    font-family:"cinzel-bold";
+    src:url("../fonts/cinzel-bold-webfont.woff") format("woff"),
+    url("../fonts/cinzel-bold-webfont.woff2") format("woff2");
+    font-weight:normal;
+    font-style:normal;
+}
+img{
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+header h1{
+  font: normal 3em/1.1 "cinzel-black";
+  color:#363;
+  background-color:#930;
+  text-align:center;
+}
+@media (min-width: 48em) {
+
+  header h1 {
+    font-size: 4em;
+  }
+
+}
+body{
+  background-color:#030;
+}
+.floating-box {
+    float: left;
+    width: 30%;
+    height: 0;
+    margin: 15px;
+    text-align:center;
+    padding-top:2em;
+    padding-bottom: 20%;
+    background-color: #393;
+}
+.floating-box img{
+max-height: 6em;
+}
+.after-box {
+    clear: left;
+    border: 3px solid red;
+}
+h2
+{
+  font: normal 1.4em/1.1 "cinzel-bold";
+  color:#930;
+}
+a{
+  font: normal 1.2em/1.1 "cinzel-bold";
+  color:#930;
+}
+div{
+  font: normal 1em/1.1 "cinzel";
+  color: #393;
+}
+ h1 {
+  font: normal 4em "cinzel-black";
+  color:#363;
+ text-align:center;
+}
