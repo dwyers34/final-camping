@@ -37,7 +37,6 @@ header h1{
 
 }
 body{
-  color:#363;
   background-color:#030;
 }
 .floating-box {
@@ -61,6 +60,9 @@ h2
 {
   font: normal 1.4em/1.1 "cinzel-bold";
   color:#930;
+}
+p{
+  color:#363;
 }
 a{
   font: normal 1.2em/1.1 "cinzel-bold";
