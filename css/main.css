@@ -89,10 +89,7 @@ body{
   padding-left: 1em;
   padding-right: 1em;
 }
-.max-width-30 {
-  max-width: 30em;
-  margin: 0 auto;
-}
+
 /*
 .floating-box {
     float: left;
