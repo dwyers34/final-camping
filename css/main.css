@@ -65,7 +65,7 @@ nav .frame img {
 }
 
 header h1{
-  font: normal 3em/1.1 "cinzel-black";
+  font: normal 2em/1.1 "cinzel-black";
   color:#363;
   background-color:#930;
   text-align:center;
@@ -88,6 +88,9 @@ body{
   background-color:#030;
   padding-left: 1em;
   padding-right: 1em;
+}
+body .packing{
+  text-align: center;
 }
 /*
 .floating-box {
