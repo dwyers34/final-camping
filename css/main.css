@@ -86,6 +86,8 @@ header h1{
 body{
   color: #363;
   background-color:#030;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 /*
 .floating-box {
@@ -125,4 +127,3 @@ div{
   color:#363;
  text-align:center;
 }
-
